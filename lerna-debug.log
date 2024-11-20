@@ -1,22 +1,5 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '3.22.1',
-0 silly argv   '$0': '../../../../../Library/pnpm/global/5/node_modules/lerna/cli.js',
-0 silly argv   name: 'core'
-0 silly argv }
-1 notice cli v3.22.1
-2 verbose rootPath /Users/zhangzhengyang/Desktop/百度云/01227 - mkjj - Web前端架构师2023/project/xy-cli-dev
-3 warn ENOREMOTE No git remote found, skipping repository property
-4 error Error: canceled
-4 error     at Interface.<anonymous> (/Users/zhangzhengyang/Library/pnpm/global/5/.pnpm/read@1.0.7/node_modules/read/lib/read.js:66:13)
-4 error     at Interface.emit (node:events:514:28)
-4 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1131:18)
-4 error     at ReadStream.onkeypress (node:internal/readline/interface:270:20)
-4 error     at ReadStream.emit (node:events:514:28)
-4 error     at emitKeys (node:internal/readline/utils:357:14)
-4 error     at emitKeys.next (<anonymous>)
-4 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
-4 error     at ReadStream.emit (node:events:514:28)
-4 error     at addChunk (node:internal/streams/readable:324:12)
-4 error     at readableAddChunk (node:internal/streams/readable:297:9)
-4 error     at Readable.push (node:internal/streams/readable:234:10)
+40 error Error: Command failed: git push --follow-tags --no-verify --atomic origin main
+40 error fatal: unable to access 'https://github.com/zhangzhengyang27/xy-cli-dev.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+40 error
+40 error     at makeError (/Users/zhangzhengyang/Desktop/百度云/01227 - mkjj - Web前端架构师2023/project/xy-cli-dev/node_modules/execa/index.js:174:9)
+40 error     at /Users/zhangzhengyang/Desktop/百度云/01227 - mkjj - Web前端架构师2023/project/xy-cli-dev/node_modules/execa/index.js:278:16
