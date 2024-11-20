@@ -15,9 +15,10 @@
   ],
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npm.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "595faf4e16367e8d63f0d76e86627950680c0181"
 }
